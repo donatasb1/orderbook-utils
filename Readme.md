@@ -4,11 +4,11 @@ Project provides utilities for processing, analyzing, and exporting orderbook da
 
 ## Features
 
-- **Orderbook Data Extraction:** Reads and filters orderbook event data from CSV files ([`orderbook/db/csvreader.py`](orderbook/db/csvreader.py)).
-- **Statistics Calculation:** Computes daily trading statistics per ticker ([`orderbook/etl/orderbookstats.py`](orderbook/etl/orderbookstats.py)).
-- **ETL Pipeline:** Pipeline for extracting, transforming, and loading orderbook statistics into a sqlite database ([`orderbook/etl/pipeline.py`](orderbook/etl/pipeline.py), [`orderbook/db/statssqlite.py`](orderbook/db/statssqlite.py)).
-- **XML Generation:** Converts orderbook data into ESMA-compliant XML files for regulatory reporting ([`orderbook/xmlgen/converter.py`](orderbook/xmlgen/converter.py)).
-- **Schema Validation:** Validates generated XML files against the official XSD schema ([`schemas/auth.anonym.113.001.01.xsd`](schemas/auth.anonym.113.001.01.xsd)).
+- **Orderbook Data Extraction:** Reads and filters orderbook event data from CSV files ([`orderbook/db/csvreader.py`](src/orderbook/db/csvreader.py)).
+- **Statistics Calculation:** Computes daily trading statistics per ticker ([`orderbook/etl/orderbookstats.py`](src/orderbook/etl/orderbookstats.py)).
+- **ETL Pipeline:** Pipeline for extracting, transforming, and loading orderbook statistics into a sqlite database ([`orderbook/etl/pipeline.py`](src/orderbook/etl/pipeline.py), [`orderbook/db/statssqlite.py`](src/orderbook/db/statssqlite.py)).
+- **XML Generation:** Converts orderbook data into ESMA-compliant XML files for regulatory reporting ([`orderbook/xmlgen/converter.py`](src/orderbook/xmlgen/converter.py)).
+- **Schema Validation:** Validates generated XML files against the official XSD schema ([`schemas/auth.anonym.113.001.01.xsd`](src/schemas/auth.anonym.113.001.01.xsd)).
 
 ## Project Structure
 
