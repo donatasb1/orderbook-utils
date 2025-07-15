@@ -1,0 +1,5 @@
+data*/
+__pycache__/
+orderbook_report.log
+orderbook_stats.db
+test_output/

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:iso:std:iso:20022:tech:xsd:head.003.001.01" targetNamespace="urn:iso:std:iso:20022:tech:xsd:head.003.001.01" elementFormDefault="qualified">
+    <xs:import namespace="urn:iso:std:iso:20022:tech:xsd:head.001.001.01" schemaLocation="head.001.001.01_ESMAUG_1.0.0.xsd"/>
+    <xs:import namespace="urn:accenture:auth.anonym.113.001.01" schemaLocation="auth.anonym.113.001.01.xsd"/>
+    <xs:include schemaLocation="head.003.001.01.xsd"/>
+
+    </xs:schema>
