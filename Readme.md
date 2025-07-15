@@ -9,7 +9,7 @@ Project provides utilities for processing, analyzing, and exporting orderbook da
 - **ETL Pipeline:** Pipeline for extracting, transforming, and loading orderbook statistics into a sqlite database ([`orderbook/etl/pipeline.py`](src/orderbook/etl/pipeline.py), [`orderbook/db/statssqlite.py`](src/orderbook/db/statssqlite.py)).
 - **XML Generation:** Converts orderbook data into ESMA-compliant XML files for regulatory reporting ([`orderbook/xmlgen/converter.py`](src/orderbook/xmlgen/converter.py)).
 - **Schema Validation:** Validates generated XML files against the official XSD schema ([`schemas/auth.anonym.113.001.01.xsd`](src/schemas/auth.anonym.113.001.01.xsd)).
-
+- **Anonymized Data:** Person identifiers encrypted with a secret
 ## Project Structure
 
 - `src/orderbook/`
